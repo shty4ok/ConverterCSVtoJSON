@@ -20,39 +20,37 @@ Papa.parse(content, {
 
 function createObj(chain) {
     let elemArray = 0;
-    let pushElem = 0;
-    let n = 1;
+    let pushElem = [];
+    let n = 0;
     let pushObj = {};
     let finalObj = {};
     for (let i = 1; i < chain.length; i++) {
         elemArray = chain[i][0];
         if (elemArray) {
             pushElem = elemArray.split('.');
+        }
+        pushObj = pushElem[0];
+        function recurs(n) {
+            if (n === pushElem.length) {
+                return pushObj;
+            } else {
 
-            function recur() {
-                if (n >= pushElem.length) {
-                    return pushObj;
-                } else {
-                    n++;
-                    pushObj.assign(pushElem[n]);
-                    return recur().assign(pushObj);
-                }
-            }
-
-            if (pushElem) {
-
-                console.log(pushElem);
+                pushObj[] = new Object(pushElem);
+                // Object.assign(pushObj, pushElem);
+                n++;
+                return recurs(n);
             }
         }
+        fs.writeFileSync('translate.json', recurs(n), (err) => {
+            if (err) throw err;
+            console.log('Data has been added');
+        })
+
+        // console.log(recurs(0));
     }
 
-// console.dir(countObj);
-
-
-// fs.writeFileSync('translate.json', JSON.stringify(countObj), (err) => {
-//     if (err) throw err;
-//     console.log('Data has been added');
-// })
+    // console.log(pushElem[1]);
+    // console.log(Object.assign({'2': 'lol'}, {'3': 'koko'}));
     function recursData() {
 
     }
