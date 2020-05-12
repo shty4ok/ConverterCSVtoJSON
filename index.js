@@ -29,29 +29,22 @@ function createObj(chain) {
         if (elemArray) {
             pushElem = elemArray.split('.');
         }
-        pushObj = pushElem[0];
         function recurs(n) {
-            if (n === pushElem.length) {
-                return pushObj;
+            if (n === pushElem.length && !(pushElem[n+1])) {
+                return finalObj;
             } else {
-
-                pushObj[] = new Object(pushElem);
+                finalObj[pushElem[n]] = pushElem[n+1];
                 // Object.assign(pushObj, pushElem);
                 n++;
                 return recurs(n);
             }
         }
-        fs.writeFileSync('translate.json', recurs(n), (err) => {
-            if (err) throw err;
-            console.log('Data has been added');
-        })
-
-        // console.log(recurs(0));
+        // fs.writeFileSync('translate.json', recurs(n), (err) => {
+        //     if (err) throw err;
+        //     console.log('Data has been added');
+        // })
     }
 
-    // console.log(pushElem[1]);
-    // console.log(Object.assign({'2': 'lol'}, {'3': 'koko'}));
-    function recursData() {
-
-    }
+    console.log(recurs(0));
+    // console.log(Object.assign({'ol': 'lol'}, {'ok': 'koko'}));
 }
