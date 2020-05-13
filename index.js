@@ -24,36 +24,22 @@ function createObj(chain) {
     let n = 0;
     let pushObj = {};
     let finalObj = {};
+    let sashPasha = {};
     for (let i = 1; i < chain.length; i++) {
         elemArray = chain[i][0];
         if (elemArray) {
             pushElem = elemArray.split('.');
         }
 
-        for (let j = 0; j < pushElem.length; j++) {
-            // console.log(pushElem[j]);
-            pushObj[pushObj[j]] = {pushObj[j+1]};
-            console.log(finalObj);
-        }
-
-        function recurs(n) {
-            // if (n === pushElem.length && !(pushElem[n+1])) {
-            //     return finalObj;
-            // } else {
-            //     finalObj[pushElem[n]] = pushElem[n+1];
-            //     // Object.assign(pushObj, pushElem);
-            //     n++;
-            //     return recurs(n);
-            // }
-
-
-        }
-        // fs.writeFileSync('translate.json', recurs(n), (err) => {
-        //     if (err) throw err;
-        //     console.log('Data has been added');
-        // })
+        let max = pushElem.length-1;
+        finalObj[pushElem[max]] = chain[i][1]; //login: 'Логин'
+        // for (let j = max; j >= 0; j--) {
+            pushObj[pushElem[max-1]] = finalObj;
+        // }
+        sashPasha = pushObj;
+        finalObj = {};
+        pushObj = {};
+        // console.log(sashPasha);
+    console.log(sashPasha);
     }
-
-    // console.log(recurs(0));
-    // console.log(Object.assign({'ol': 'lol'}, {'ok': 'koko'}));
 }
