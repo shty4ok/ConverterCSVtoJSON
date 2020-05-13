@@ -29,15 +29,24 @@ function createObj(chain) {
         if (elemArray) {
             pushElem = elemArray.split('.');
         }
+
+        for (let j = 0; j < pushElem.length; j++) {
+            // console.log(pushElem[j]);
+            pushObj[pushObj[j]] = {pushObj[j+1]};
+            console.log(finalObj);
+        }
+
         function recurs(n) {
-            if (n === pushElem.length && !(pushElem[n+1])) {
-                return finalObj;
-            } else {
-                finalObj[pushElem[n]] = pushElem[n+1];
-                // Object.assign(pushObj, pushElem);
-                n++;
-                return recurs(n);
-            }
+            // if (n === pushElem.length && !(pushElem[n+1])) {
+            //     return finalObj;
+            // } else {
+            //     finalObj[pushElem[n]] = pushElem[n+1];
+            //     // Object.assign(pushObj, pushElem);
+            //     n++;
+            //     return recurs(n);
+            // }
+
+
         }
         // fs.writeFileSync('translate.json', recurs(n), (err) => {
         //     if (err) throw err;
@@ -45,6 +54,6 @@ function createObj(chain) {
         // })
     }
 
-    console.log(recurs(0));
+    // console.log(recurs(0));
     // console.log(Object.assign({'ol': 'lol'}, {'ok': 'koko'}));
 }
