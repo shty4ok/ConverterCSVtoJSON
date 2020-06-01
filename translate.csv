@@ -13,7 +13,7 @@ INDEX.OBJMAP;Карта обьектов;
 INDEX.ENTERCITY;Введите город;
 INDEX.ENTERADDRESS;Введите адрес;
 INDEX.FILTERS;Фильтры;
-CLIENT.CARD.MALFACTION;Неисправных аппаратов;
+CLIENT.CARD.t;Неисправных аппаратов;
 CLIENT.CARD.ADDRESS;Адресов:;
 CLIENT.CARD.DEVICES;Аппаратов:;
 CLIENT.CARD.PERSONALAREA;Личный кабинет:;
