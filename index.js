@@ -4,6 +4,9 @@ const file = 'translate.csv';
 const fileExport = 'translate.json';
 const content = fs.readFileSync(file, 'utf8');
 let rows;
+let o = {};
+let dataArray = [];
+let helper = {};
 let g = {};
 
 //=================================================
