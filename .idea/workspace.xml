@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32e79c1b-9ac6-4404-bb95-a4ffa17e7c49" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/translate — копия.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/translate.csv" beforeDir="false" afterPath="$PROJECT_DIR$/translate.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/translate.json" beforeDir="false" afterPath="$PROJECT_DIR$/translate.json" afterDir="false" />
-    </list>
+    <list default="true" id="32e79c1b-9ac6-4404-bb95-a4ffa17e7c49" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,9 +22,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.16.3" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../aroma-frontend-angular" />
+    <property name="javascript.nodejs.core.library.typings.version" value="12.12.62" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -67,11 +63,12 @@
       <workItem from="1591002908082" duration="203000" />
       <workItem from="1591168916586" duration="772000" />
       <workItem from="1592914796226" duration="605000" />
+      <workItem from="1600512001291" duration="209000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589391131445">
