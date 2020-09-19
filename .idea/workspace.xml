@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32e79c1b-9ac6-4404-bb95-a4ffa17e7c49" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/translate — копия.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/translate.csv" beforeDir="false" afterPath="$PROJECT_DIR$/translate.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/translate.json" beforeDir="false" afterPath="$PROJECT_DIR$/translate.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,9 +28,14 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.16.3" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/index.js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../aroma-frontend-angular" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project\Converter CSVtoJSON" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="index.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="index.js" working-dir="$PROJECT_DIR$">
@@ -52,6 +59,14 @@
       <workItem from="1589390651557" duration="1278000" />
       <workItem from="1589392878832" duration="7910000" />
       <workItem from="1589444000258" duration="4927000" />
+      <workItem from="1589654826528" duration="49000" />
+      <workItem from="1589836202250" duration="1532000" />
+      <workItem from="1589869515971" duration="2202000" />
+      <workItem from="1589932093676" duration="1837000" />
+      <workItem from="1590129766015" duration="4726000" />
+      <workItem from="1591002908082" duration="203000" />
+      <workItem from="1591168916586" duration="772000" />
+      <workItem from="1592914796226" duration="605000" />
     </task>
     <servers />
   </component>
@@ -67,10 +82,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="520" height="440" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1589397502424" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1589391127967">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1592915416454">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1589391127967" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1592915416454" />
     <state width="1367" height="232" key="GridCell.Tab.0.bottom" timestamp="1589413359956">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -135,10 +150,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1367" height="232" key="GridCell.Tab.3.right/0.0.1366.728@0.0.1366.728" timestamp="1589413359964" />
-    <state x="184" y="9" key="SettingsEditor" timestamp="1589444203386">
+    <state x="184" y="9" key="SettingsEditor" timestamp="1590224649639">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1589444203386" />
+    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1590224649639" />
     <state x="492" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589483988720">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
